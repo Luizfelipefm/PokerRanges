@@ -10,8 +10,7 @@ namespace PokerRangers.Models
         public int PosicaoId { get; set; }
         public int RangeInicio { get; set; }
         public int RangeFim { get; set; }
-
-        public Posicao Posicao { get; set; }
+        public List<Posicao> Posicao { get; set; }
         public List<RangeCombo> RangeCombos { get; set; }
     }
 }
